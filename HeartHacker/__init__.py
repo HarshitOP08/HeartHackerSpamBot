@@ -18,13 +18,13 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 rizoelversion = "v0.0.2"
 
 #values
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
+API_ID = config("25018506", default=None, cast=int)
+API_HASH = config("5a6e89f9369c6f22abf80a99df29eaf5", default=None)
 ALIVE_PIC = config("ALIVE_PIC", default=None)
 CMD_HNDLR = getenv("CMD_HNDLR", default="!")
 HEROKU_APP_NAME = config("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = config("HEROKU_API_KEY", None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
+BOT_TOKEN = config("5902015405:AAG64NbJHijbaRlBPHSXF2WqHY1wimppl_8", default=None)
 BOT_TOKEN2 = config("BOT_TOKEN2", default=None)
 BOT_TOKEN3 = config("BOT_TOKEN3", default=None)
 BOT_TOKEN4 = config("BOT_TOKEN4", default=None)
@@ -34,11 +34,11 @@ BOT_TOKEN7 = config("BOT_TOKEN7", default=None)
 BOT_TOKEN8 = config("BOT_TOKEN8", default=None)
 BOT_TOKEN9 = config("BOT_TOKEN9", default=None)
 BOT_TOKEN10 = config("BOT_TOKEN10", default=None)
-SUDO_USERS = list(map(int, getenv("SUDO_USER").split()))
+SUDO_USERS = list(map(int, getenv("5656982887").split()))
 if 1517994352 not in SUDO_USERS:
     SUDO_USERS.append(1517994352)
 
-OWNER_ID = int(os.environ.get("OWNER_ID", None))
+OWNER_ID = int(os.environ.get("5656982887", None))
 
 # Don't Mess with Codes !! 
 DB_URI = config("DATABASE_URL", None)
